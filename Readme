@@ -22,3 +22,5 @@ RUN
 -Enter IP addresses of file servers.
 ./client (repeat 3 times)
 -Enter IP address of DoD server.
+
+fileserver와 fileserver2의 차이는 port number이다. fileserver는 5000, fileserver2는 5001을 사용한다.
