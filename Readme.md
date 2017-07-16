@@ -4,23 +4,23 @@
 
 ### Development environment
 OS: Ubuntu 14.04.3 LTS
-Complier: gcc 4.8.4
+<br>Complier: gcc 4.8.4
 
 ### Complie/build 
 gcc –o fileserver fileserver.c
-gcc –o fileserver2 fileserver2.c
-gcc –o dodserver dodserver.c –lpthread
-gcc –o client client.c
+<br>gcc –o fileserver2 fileserver2.c
+<br>gcc –o dodserver dodserver.c –lpthread
+<br>gcc –o client client.c
 
 ### RUN
 -Create and fill up files that are listed in source code. (They are included in each file server folder in executable files folder)
-(File list: "file01.dat", "file02.dat", "file03.dat", "txt01.txt","code01.txt","file01.dat","file02.dat",
-"file03.dat", "txt01.txt", "code02.txt")
-./fileserver
-./fileserver2
-./dodserver
--Enter IP addresses of file servers.
-./client (repeat 3 times)
--Enter IP address of DoD server.
+<br>(File list: "file01.dat", "file02.dat", "file03.dat", "txt01.txt","code01.txt","file01.dat","file02.dat",
+<br>"file03.dat", "txt01.txt", "code02.txt")
+<br>./fileserver
+<br>./fileserver2
+<br>./dodserver
+<br>-Enter IP addresses of file servers.
+<br>./client (repeat 3 times)
+<br>-Enter IP address of DoD server.
 
 fileserver와 fileserver2의 차이는 port number이다. fileserver는 5001, fileserver2는 5002을 사용한다.
